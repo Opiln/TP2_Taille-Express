@@ -1,0 +1,68 @@
+body {
+  padding-top: 6.6rem;
+}
+
+ul {
+    list-style-type:none;
+    text-align:center;
+}
+
+.navbar {                       /* pour le ul */
+    list-style-type: none;
+    margin :0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    box-shadow : 10px 10px 5px #888888;
+    font-size :17px;
+    letter-spacing:1px;
+}
+
+.navbar li{
+
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #fef997;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.navbar li a.active {
+    background-color: #f13936;
+    color: #fef997;
+}
+
+p > a {
+    background-color: #f13936;
+    color: #fef997;
+}
+
+footer {
+    position:fixed;
+    height:45px;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color:white;
+    border-top:orange solid 2px;
+    text-align:center;
+}
+
+#lienAuteurs {
+    background-color: white;
+    color: blue;
+}
+
+main {
+    padding-bottom:45px;
+}
