@@ -86,7 +86,7 @@ main {
     background-color: #da4c31;
     border: 1px solid #da4c32;
     padding: 0 1.5em;
-    border-radius: 3px !important;
+    border-radius: 3px;
     font-weight: 500;
     font-family: 'Circular';
     line-height: 2.7em;
