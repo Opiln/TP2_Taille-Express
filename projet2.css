@@ -66,3 +66,28 @@ footer {
 main {
     padding-bottom:45px;
 }
+    .text{
+    
+    font-family: "Circular";
+    font-weight: 300;
+    border-radius: 3px;
+    color: #111;
+    background-color: #fff;
+    border-color: #666;
+    padding: 0 1.5em;
+    line-height: 2.7em;
+    margin-bottom: 1rem;
+    min-height: 38px;
+    
+    }
+        
+ #envoi{
+    color: #fff;
+    background-color: #da4c31;
+    border: 1px solid #da4c32;
+    padding: 0 1.5em;
+    border-radius: 3px !important;
+    font-weight: 500;
+    font-family: 'Circular';
+    line-height: 2.7em;
+}
