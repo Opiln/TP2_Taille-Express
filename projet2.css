@@ -1,5 +1,6 @@
 body {
   padding-top: 6.6rem;
+  font-family: 'Open Sans', sans-serif;
 }
 
 ul {
@@ -66,28 +67,93 @@ footer {
 main {
     padding-bottom:45px;
 }
-    .text{
-    
-    font-family: "Circular";
-    font-weight: 300;
-    border-radius: 3px;
-    color: #111;
-    background-color: #fff;
-    border-color: #666;
-    padding: 0 1.5em;
-    line-height: 2.7em;
-    margin-bottom: 1rem;
-    min-height: 38px;
-    
+
+.row {
+  margin-bottom: 1rem;
+  padding-left:6px;
+}
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: white;
+  
+}
+
+.col-md-4 {
+    height:200px;
+}
+
+#logo {
+    width:100px;
+}
+
+img {
+    width:100px;
+}
+
+table {
+    border:thin solid black;
+    border-collapse:collapse;
+    margin-bottom:100px;
+}
+
+#citation {
+    font-style:italic;
+    display:block;
+    margin:0 auto;
+    width:525px;
+    padding:25px;
+}
+
+td {
+    padding:5px;
+    border:thin solid black;
+}
+
+.titre {
+    text-align:center;
+    font-weight:bold;
+}
+
+#bigTexte {
+    text-align:center;
+}
+
+.texte {
+    padding-left:25px;
+    width:400px;
+    height:200px;
+    text-align:center;
+    display:inline-block;
+}
+
+#lienModele {
+    color:blue;
+    background-color:white;
+}
+
+#citation2 {
+    font-style:italic;
+    display:block;
+    margin:0 auto;
+    width:248px;
+    padding:25px;
+}
+
+#citation3 {
+    font-style:italic;
+    display:block;
+    margin:0 auto;
+    width:275px;
+    padding:25px;
+}
+
+@media screen and (max-width: 550px) {
+    body {
+        padding-top: 10rem;
     }
-        
- #envoi{
-    color: #fff;
-    background-color: #da4c31;
-    border: 1px solid #da4c32;
-    padding: 0 1.5em;
-    border-radius: 3px;
-    font-weight: 500;
-    font-family: 'Circular';
-    line-height: 2.7em;
 }
