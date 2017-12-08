@@ -131,7 +131,7 @@ td {
     display:inline-block;
 }
 
-#lienModele {
+.lienModele {
     color:blue;
     background-color:white;
 }
@@ -150,6 +150,29 @@ td {
     margin:0 auto;
     width:275px;
     padding:25px;
+}
+
+.album {
+  min-height: 50rem; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.card {
+  float: left;
+  width: 33.3333333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+  width:49%;
+}
+
+.card-text {
+  font-size: 85%;
 }
 
 @media screen and (max-width: 550px) {
