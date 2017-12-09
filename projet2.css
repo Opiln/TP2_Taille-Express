@@ -176,6 +176,12 @@ td {
   font-size: 85%;
 }
 
+#formulaireDiv {
+    float:right;
+    width:300px;
+    margin-bottom:30px;
+}
+
 @media screen and (max-width: 550px) {
     body {
         padding-top: 10rem;

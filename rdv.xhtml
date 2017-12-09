@@ -11,7 +11,13 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link href="projet2.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" />
+        <script type="text/javascript" src="js.js"></script>
+        <link rel="stylesheet"
+            href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery.js"></script>
     </head>
 
     <body>
@@ -23,17 +29,55 @@
                 <li><a class="active" href="rdv.xhtml">Rendez-vous</a></li>
             </ul>
         </div>
-        <h3>Modèle</h3>
-        
-        <div class="row">
-            <div class="col-md-8">
-                Boîte
-                <div class="row">
-                    <div class="col-md-6">Boîte</div>
-                    <div class="col-md-6">Boîte</div>
+        <h3>Nous contacter</h3>
+        <p id="citation">"N'attendez pas à la dernière minute!"</p>
+        <div id="formulaireDiv">
+            <h3>Prendre rendez-vous</h3>
+            <form action="http://www.iro.umontreal.ca/~lapalme/ift1005/Exercices/9/echoValeurs.cgi" method="post">
+                <div>
+                    <input class="text" placeholder="Prénom" type="text" id="prenom" name="Prénom" />
+                    <input class="text" placeholder="Nom" type="text" id="nom" name="Nom" />
                 </div>
+                <div>
+                    <input class="text" placeholder="Adresse courriel" type="email" id="courriel"
+                        name="Courriel" />
+                </div>
+                <div id="date">
+                    <input class="text" id="datepicker" placeholder="Date" />
+                    <select class="text" id="list">
+                        
+                        <option value="11h">11h</option>
+                        <option value="11h30">11h30</option>
+                        <option value="12h">12h</option>
+                        <option value="12h30">12h30</option>
+                        <option value="13h">13h</option>
+                        <option value="13h30">13h30</option>
+                        <option value="14h">14h</option>
+                        <option value="14h30">14h30</option>
+                        <option value="15h">15h</option>
+                        <option value="15h30">15h30</option>
+                        <option value="16h">16h</option>
+                        <option value="16h30">16h30</option>
+                        <option value="17h">17h</option>
+                        <option value="17h30">17h30</option>
+                        <option value="18h">18h</option>
+                        <option value="18h30">18h30</option>
+                        <option value="19h">19h</option>
+                        
+                    </select>
+                </div>
+                <input id="envoi" class="text" type="submit"
+                    value="Recevoir ma confirmation par e-mail" />
+            </form>
+        </div>
+        <div id="bigTexte">
+            <div class="texte">
+                <p><b>Intéressés?</b></p>
+                <p>Prenez rendez-vous dès maintenant avec notre formulaire rapide et efficace, et réservez-vous le droit à un service efficace et de qualité!
+                </p>
             </div>
-            <div class="col-md-4">Boîte</div>
+           
+            
         </div>
         
         <footer class="container">
